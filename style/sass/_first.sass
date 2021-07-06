@@ -1,0 +1,19 @@
+.menu-1:hover .inner-ul li,
+.menu-1:focus .inner-ul li
+	display: block	
+	@for $i from 1 through 5
+		&:nth-child(#{$i})
+			animation: 
+				name: anime
+				duration: $animation-time * $i
+				timing-function: ease
+				fill-mode: forwards
+
+	@keyframes anime 
+		0%
+			opacity: 0
+			transform: rotateY(-80deg)
+
+		100%
+			opacity: 1
+			transform: rotateY(0)

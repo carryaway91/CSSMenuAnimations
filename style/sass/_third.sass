@@ -1,0 +1,27 @@
+.menu-3 .inner-ul
+	position: relative
+
+	li 
+		position: relative
+		left: 100%
+
+.menu-3:hover .inner-ul li,
+.menu-3:focus .inner-ul li
+	display: block
+
+	@for $i from 1 through 5
+		&:nth-child(#{$i})
+			animation: 
+				name: anime-3
+				duration: $animation-time * $i
+				timing-function: ease
+				fill-mode: forwards
+
+@keyframes anime-3
+	0%
+		opacity: 0
+		left: 100%
+
+	100%
+		opacity: 1
+		left: 0

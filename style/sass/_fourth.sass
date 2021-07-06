@@ -1,0 +1,30 @@
+.menu-4 .inner-ul li 
+	transform-origin: top
+	transform: rotateX(-70deg)
+	opacity: 0
+
+.menu-4:hover .inner-ul li,
+.menu-4:focus .inner-ul li
+	display: block
+	
+	@for $i from 1 through 5
+		&:nth-child(#{$i})
+			animation: 
+				name: anime-4
+				duration: 250ms
+				delay: 250ms * $i - 250
+				timing-function: ease
+				fill-mode: forwards
+
+@keyframes anime-4
+	0%
+		transform: rotateX(-70deg)
+		opacity: 0
+	50%
+		transform: rotateX(50deg)
+		opacity: .5
+	100%
+		transform: rotateX(0)
+		opacity: 1
+
+

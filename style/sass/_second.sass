@@ -1,0 +1,31 @@
+.menu-2 .inner-ul li 
+	opacity: 0
+	transform:
+		origin: top right
+	transform: rotate(-40deg)
+
+.menu-2:hover .inner-ul li,
+.menu-2:focus .inner-ul li
+	display: block
+
+	@for $i from 1 through 5
+		display: block
+
+		&:nth-child(#{$i})
+			
+			animation: 
+				name: anime-2
+				duration: $animation-time-slower
+				delay: $animation-time-slower * $i - 125
+				timing-function: ease
+				fill-mode: forwards
+
+@keyframes anime-2
+	0%
+		opacity: 0
+		transform: rotate(-40deg)
+	
+	100%
+		opacity: 1
+		transform: rotate(0)
+

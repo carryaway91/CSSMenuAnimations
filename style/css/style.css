@@ -1,0 +1,295 @@
+body {
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: #E8FFF4; }
+
+ul {
+  padding: 0; }
+
+.menu-1:hover .inner-ul li,
+.menu-1:focus .inner-ul li {
+  display: block; }
+  .menu-1:hover .inner-ul li:nth-child(1),
+  .menu-1:focus .inner-ul li:nth-child(1) {
+    animation-name: anime;
+    animation-duration: 300ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-1:hover .inner-ul li:nth-child(2),
+  .menu-1:focus .inner-ul li:nth-child(2) {
+    animation-name: anime;
+    animation-duration: 600ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-1:hover .inner-ul li:nth-child(3),
+  .menu-1:focus .inner-ul li:nth-child(3) {
+    animation-name: anime;
+    animation-duration: 900ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-1:hover .inner-ul li:nth-child(4),
+  .menu-1:focus .inner-ul li:nth-child(4) {
+    animation-name: anime;
+    animation-duration: 1200ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-1:hover .inner-ul li:nth-child(5),
+  .menu-1:focus .inner-ul li:nth-child(5) {
+    animation-name: anime;
+    animation-duration: 1500ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+@keyframes anime {
+  0% {
+    opacity: 0;
+    transform: rotateY(-80deg); }
+  100% {
+    opacity: 1;
+    transform: rotateY(0); } }
+.menu-2 .inner-ul li {
+  opacity: 0;
+  transform-origin: top right;
+  transform: rotate(-40deg); }
+
+.menu-2:hover .inner-ul li,
+.menu-2:focus .inner-ul li {
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block;
+  display: block; }
+  .menu-2:hover .inner-ul li:nth-child(1),
+  .menu-2:focus .inner-ul li:nth-child(1) {
+    animation-name: anime-2;
+    animation-duration: 125ms;
+    animation-delay: 0ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-2:hover .inner-ul li:nth-child(2),
+  .menu-2:focus .inner-ul li:nth-child(2) {
+    animation-name: anime-2;
+    animation-duration: 125ms;
+    animation-delay: 125ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-2:hover .inner-ul li:nth-child(3),
+  .menu-2:focus .inner-ul li:nth-child(3) {
+    animation-name: anime-2;
+    animation-duration: 125ms;
+    animation-delay: 250ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-2:hover .inner-ul li:nth-child(4),
+  .menu-2:focus .inner-ul li:nth-child(4) {
+    animation-name: anime-2;
+    animation-duration: 125ms;
+    animation-delay: 375ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-2:hover .inner-ul li:nth-child(5),
+  .menu-2:focus .inner-ul li:nth-child(5) {
+    animation-name: anime-2;
+    animation-duration: 125ms;
+    animation-delay: 500ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+
+@keyframes anime-2 {
+  0% {
+    opacity: 0;
+    transform: rotate(-40deg); }
+  100% {
+    opacity: 1;
+    transform: rotate(0); } }
+.menu-3 .inner-ul {
+  position: relative; }
+  .menu-3 .inner-ul li {
+    position: relative;
+    left: 100%; }
+
+.menu-3:hover .inner-ul li,
+.menu-3:focus .inner-ul li {
+  display: block; }
+  .menu-3:hover .inner-ul li:nth-child(1),
+  .menu-3:focus .inner-ul li:nth-child(1) {
+    animation-name: anime-3;
+    animation-duration: 300ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-3:hover .inner-ul li:nth-child(2),
+  .menu-3:focus .inner-ul li:nth-child(2) {
+    animation-name: anime-3;
+    animation-duration: 600ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-3:hover .inner-ul li:nth-child(3),
+  .menu-3:focus .inner-ul li:nth-child(3) {
+    animation-name: anime-3;
+    animation-duration: 900ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-3:hover .inner-ul li:nth-child(4),
+  .menu-3:focus .inner-ul li:nth-child(4) {
+    animation-name: anime-3;
+    animation-duration: 1200ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-3:hover .inner-ul li:nth-child(5),
+  .menu-3:focus .inner-ul li:nth-child(5) {
+    animation-name: anime-3;
+    animation-duration: 1500ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+
+@keyframes anime-3 {
+  0% {
+    opacity: 0;
+    left: 100%; }
+  100% {
+    opacity: 1;
+    left: 0; } }
+.menu-4 .inner-ul li {
+  transform-origin: top;
+  transform: rotateX(-70deg);
+  opacity: 0; }
+
+.menu-4:hover .inner-ul li,
+.menu-4:focus .inner-ul li {
+  display: block; }
+  .menu-4:hover .inner-ul li:nth-child(1),
+  .menu-4:focus .inner-ul li:nth-child(1) {
+    animation-name: anime-4;
+    animation-duration: 250ms;
+    animation-delay: 0ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-4:hover .inner-ul li:nth-child(2),
+  .menu-4:focus .inner-ul li:nth-child(2) {
+    animation-name: anime-4;
+    animation-duration: 250ms;
+    animation-delay: 250ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-4:hover .inner-ul li:nth-child(3),
+  .menu-4:focus .inner-ul li:nth-child(3) {
+    animation-name: anime-4;
+    animation-duration: 250ms;
+    animation-delay: 500ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-4:hover .inner-ul li:nth-child(4),
+  .menu-4:focus .inner-ul li:nth-child(4) {
+    animation-name: anime-4;
+    animation-duration: 250ms;
+    animation-delay: 750ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-4:hover .inner-ul li:nth-child(5),
+  .menu-4:focus .inner-ul li:nth-child(5) {
+    animation-name: anime-4;
+    animation-duration: 250ms;
+    animation-delay: 1000ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+
+@keyframes anime-4 {
+  0% {
+    transform: rotateX(-70deg);
+    opacity: 0; }
+  50% {
+    transform: rotateX(50deg);
+    opacity: 0.5; }
+  100% {
+    transform: rotateX(0);
+    opacity: 1; } }
+.menu-5 .inner-ul li {
+  transform: scale(0.7); }
+
+.menu-5:hover .inner-ul li,
+.menu-5:focus .inner-ul li {
+  display: block; }
+  .menu-5:hover .inner-ul li:nth-child(1),
+  .menu-5:focus .inner-ul li:nth-child(1) {
+    animation-name: anime-5;
+    animation-duration: 150ms;
+    animation-delay: 0ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-5:hover .inner-ul li:nth-child(2),
+  .menu-5:focus .inner-ul li:nth-child(2) {
+    animation-name: anime-5;
+    animation-duration: 150ms;
+    animation-delay: 150ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-5:hover .inner-ul li:nth-child(3),
+  .menu-5:focus .inner-ul li:nth-child(3) {
+    animation-name: anime-5;
+    animation-duration: 150ms;
+    animation-delay: 300ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-5:hover .inner-ul li:nth-child(4),
+  .menu-5:focus .inner-ul li:nth-child(4) {
+    animation-name: anime-5;
+    animation-duration: 150ms;
+    animation-delay: 450ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+  .menu-5:hover .inner-ul li:nth-child(5),
+  .menu-5:focus .inner-ul li:nth-child(5) {
+    animation-name: anime-5;
+    animation-duration: 150ms;
+    animation-delay: 600ms;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards; }
+
+@keyframes anime-5 {
+  0% {
+    transform: scale(0.7);
+    opacity: 0; }
+  30% {
+    opacity: 0.8; }
+  50% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+.outer-ul {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+  border-radius: 0.2em; }
+  .outer-ul .menus > a {
+    background-color: #010203; }
+    .outer-ul .menus > a:hover {
+      background-color: #1b3550; }
+  .outer-ul .menus {
+    border-top: none; }
+  .outer-ul li {
+    list-style-type: none;
+    border-top: 1px solid #aaa; }
+    .outer-ul li a {
+      text-decoration: none;
+      display: block;
+      padding: 1em 2em;
+      color: #f1f2f3;
+      border-radius: 0.2em; }
+    .outer-ul li .inner-ul {
+      perspective: 1000px; }
+  .outer-ul .inner-ul li {
+    background-color: #033;
+    transition: all 0.2s ease;
+    opacity: 0;
+    display: none; }
+    .outer-ul .inner-ul li:hover {
+      background-color: #006666;
+      transition: all 0.2s ease; }
+  .outer-ul .a {
+    background-color: #010203; }
+
+/*# sourceMappingURL=style.css.map */

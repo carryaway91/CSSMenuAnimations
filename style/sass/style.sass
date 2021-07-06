@@ -1,0 +1,52 @@
+@import '_general.sass'
+@import '_first.sass'
+@import '_second.sass'
+@import '_third.sass'
+@import '_fourth.sass'
+@import '_fifth.sass'
+
+
+
+.outer-ul
+	display: flex
+	height: 100%
+	justify-content: space-around
+	align-items: flex-start
+	border-radius: .2em
+	
+	
+	.menus > a
+		background-color: $menu-bg
+		&:hover
+			background-color: lighten($menu-bg, 20%)
+			
+	
+	.menus 
+		border-top: none
+	li
+		list-style-type: none
+		border-top: 1px solid #aaa 
+		
+		a
+			text-decoration: none
+			display: block
+			padding: 1em 2em
+			color: #f1f2f3
+			border-radius: .2em
+	
+		.inner-ul
+			perspective: 1000px
+
+	.inner-ul li
+		background-color: $li-bg
+		transition: all .2s ease
+		opacity: 0
+		display: none
+
+		&:hover
+			background-color: lighten($li-bg, 10%)
+			transition: all .2s ease
+
+	.a 
+		background-color: #010203
+

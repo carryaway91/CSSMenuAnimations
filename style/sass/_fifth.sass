@@ -1,0 +1,30 @@
+.menu-5 .inner-ul li 
+	transform: scale(.7)
+
+.menu-5:hover .inner-ul li,
+.menu-5:focus .inner-ul li
+
+	display: block
+	@for $i from 1 through 5
+
+		&:nth-child(#{$i})
+			animation: 
+				name: anime-5
+				duration: $animation-time / 2
+				delay: ($animation-time / 2) * $i - 150
+				timing-function: ease
+				fill-mode: forwards
+
+@keyframes anime-5
+	0%
+		transform: scale(.7)
+		opacity: 0
+	30%
+		opacity: .8
+	50%
+		transform: scale(1.2)
+	100%
+		transform: scale(1)
+		opacity: 1
+
+
